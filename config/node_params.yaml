@@ -1,0 +1,9 @@
+coveragecontrol_sim:
+  ros__parameters:
+    use_cuda: false
+    # env_file: "/opt/CoverageControl_ws/src/coveragecontrol_sim/config/env_params.yaml"
+    # pos_file: "/opt/CoverageControl_ws/src/coveragecontrol_sim/config/sample.pos"
+    # idf_file: "/opt/CoverageControl_ws/src/coveragecontrol_sim/config/idf.pos"
+    time_step: 0.05 # In seconds, inverse of frequency
+    buffer_size: 10
+
